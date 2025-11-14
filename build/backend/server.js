@@ -4,7 +4,6 @@ import bodyParser from "body-parser";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import { stringify } from "postcss";
 import { v4 as uuidv4 } from "uuid"; 
 
 dotenv.config();
@@ -120,6 +119,8 @@ const PORT = process.env.PORT || 5000;
 // Middleware
 app.use(cors());
 app.use(bodyParser.json());
+
+console.log("MONGO_URI:", process.env.MONGO_URI);
 
 mongoose
   .connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true })
@@ -270,7 +271,7 @@ app.delete("/api/reports/:id", async (req, res) => {
 // });
 
 // Start the server
-import { swaggerUi, specs } from "./swagger.js"; // Import Swagger configuration
+// import { swaggerUi, specs } from "./swagger.js"; // Import Swagger configuration
 
 const App = express();
 
@@ -294,7 +295,7 @@ app.delete("/api/reports/:id", (req, res) => {
 });
 
 // Swagger Documentation
-app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
+// app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(specs));
 
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
