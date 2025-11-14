@@ -74,7 +74,6 @@ Ensure you have the following installed:
 
 5. **Testing API Endpoints**
    - Use **Postman** or **cURL** to test API endpoints.
-   - API documentation available via Swagger .
 
 ### Dockerized Setup (Optional)
 
@@ -97,12 +96,5 @@ Ensure you have the following installed:
    ```sh
    docker stop backend frontend
    ```
-
-## Deployment
-- Hosted on **Google Cloud Server**
-- **Frontend URL:** [Link](https://med-whisper-frontend-280871509489.us-central1.run.app)
-- **Backend URL:** [Link](https://med-whisper-backend-280871509489.us-central1.run.app)
-## Demo
-- **Demo Video:** [Link](https://drive.google.com/file/d/1AJa0k4L4KGXBaFphukb21_kGVvsjp59q/view?usp=sharing)
   
   
