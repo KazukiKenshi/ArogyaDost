@@ -1,6 +1,6 @@
 # ArogyaDost
 
-MedWhisper is a real-time AI-powered clinical decision support system that transcribes doctor-patient conversations, generates SOAP notes, provides differential diagnoses, and suggests clinical pathways.
+ArogyaDost is a real-time AI-powered clinical decision support system that transcribes doctor-patient conversations, generates SOAP notes, provides differential diagnoses, and suggests clinical pathways.
 
 ## Tech Stack
 
