@@ -23,7 +23,7 @@ MedWhisper is a real-time AI-powered clinical decision support system that trans
 
 ### Containerization & Deployment
 - **Docker** (Containerized backend and frontend)
-- **Google Cloud Server** (Deployed infrastructure)
+- **Amazon Web Services** (Deployed infrastructure)
 
 ## Features
 - Real-time speech-to-text transcription
